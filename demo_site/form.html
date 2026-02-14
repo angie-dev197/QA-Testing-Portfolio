@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neem contact met ons op voor vragen over wonen in Spanje">
+    <title>Contact - Wonen in Spanje</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <h1>Contact</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="/demo_site/index.html">Home</a></li>
+                <li><a href="/demo_site/services.html">Services</a></li>
+                <li><a href="/demo_site/cultuur.html">Cultuur</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Hit Me Up!</h2>
+
+        <!-- Contact Form -->
+        <form action="#" method="POST">
+            <!-- First Name -->
+            <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text"
+                       id="fname"
+                       name="first_name"
+                       placeholder="Your first name"
+                       required
+                       aria-required="true">
+            </div>
+
+            <!-- Last Name -->
+            <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text"
+                       id="lname"
+                       name="last_name"
+                       placeholder="Your last name"
+                       required
+                       aria-required="true">
+            </div>
+
+            <!-- Email -->
+            <div class="form-group span-all">
+                <label for="email">Email</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="your.email@example.com"
+                       required
+                       aria-required="true">
+            </div>
+
+            <!-- Query Type -->
+            <fieldset class="span-all">
+                <legend>Query Type</legend>
+
+                <div class="form-group">
+                    <input type="radio"
+                           id="general"
+                           name="query"
+                           value="General Enquiry"
+                           required
+                           aria-required="true">
+                    <label for="general">General Enquiry</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="radio"
+                           id="support"
+                           name="query"
+                           value="Support Request"
+                           required
+                           aria-required="true">
+                    <label for="support">Support Request</label>
+                </div>
+            </fieldset>
+
+            <!-- Message -->
+            <div class="form-group span-all">
+                <label for="message">Message</label>
+                <textarea id="message"
+                          name="message"
+                          rows="6"
+                          placeholder="Your message here..."
+                          required
+                          aria-required="true"></textarea>
+            </div>
+
+            <!-- Consent Checkbox -->
+            <div class="form-group span-all">
+                <input type="checkbox"
+                       id="consent"
+                       name="consent"
+                       required
+                       aria-required="true">
+                <label for="consent">I consent to being contacted by the team</label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="span-all">Submit</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Angelica Soete. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>

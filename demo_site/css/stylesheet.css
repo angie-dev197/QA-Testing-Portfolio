@@ -1,0 +1,212 @@
+/* ============================================================
+   GLOBAL STYLES
+   ============================================================ */
+
+body {
+  font-family: inter, sans-serif;
+  color: #301C0C;
+  margin: 1rem;
+}
+
+/* ============================================================
+   HEADER & NAVIGATION
+   ============================================================ */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0;
+  background: transparent;
+}
+
+header h1 {
+  font-family: "instrumental serif";
+  font-weight: 450;
+  font-style: oblique;
+  font-size: xx-large;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+nav a {
+  color: #301C0C;
+  font-weight: 550;
+  padding: 0.7rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  background: rgba(216, 211, 208, 0.25);
+}
+
+/* ============================================================
+   INDEX PAGE - FRONT PAGE
+   ============================================================ */
+
+.content-frontpage {
+  margin: 0 5rem;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container .foto {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-top: 5px solid #301C0C;
+  transition: filter 0.3s ease;
+}
+
+.image-container .foto:hover {
+  filter: brightness(0.8);
+}
+
+.cta-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10px;
+}
+
+.cta-button {
+  background-color: rgba(48, 28, 12, 0.3);
+  color: white;
+  padding: 2rem 5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: rgba(48, 28, 12, 0.5);
+}
+
+/* ============================================================
+   SERVICES PAGE
+   ============================================================ */
+
+.services-main .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #999999;
+  border-top: 5px solid #301C0C;
+  display: grid;
+  grid-template-rows: max-content auto 1fr;
+  padding: 0.5rem;
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+.card header {
+  min-height: 3.5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card header h2 {
+  min-height: 2.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow-wrap: break-word;
+}
+
+.card .content {
+  padding: 0.5rem;
+}
+
+/* ============================================================
+   CULTUUR PAGE
+   ============================================================ */
+
+.topics-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topic {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #301C0C;
+  border-top: 5px solid #301C0C;
+  padding: 0.7rem;
+  margin: 0.7rem;
+}
+
+/* ============================================================
+   CONTACT PAGE - FORMS
+   ============================================================ */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group:has(input[type="checkbox"]) {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-group input[type="checkbox"] {
+  margin: 0;
+}
+
+.span-all,
+.form-group-span-all {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+/* ============================================================
+   RESPONSIVE DESIGN
+   ============================================================ */
+
+@media (max-width: 600px) {
+  .content-frontpage {
+    margin: 0 1rem;
+  }
+
+  .services-main .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-button {
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+}
