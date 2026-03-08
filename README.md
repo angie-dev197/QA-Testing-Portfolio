@@ -142,14 +142,6 @@ A sample defect in the test plan: contact form accepting an invalid email format
 - VS Code (development)
 - Markdown (documentation)
 
-## Repo structure (recommended)
-
-- `QA-portfolio/QA-Manual-Testing/test-plan.md/` — Manual Test Plan (this project’s main document)
-- `QA-portfolio/QA-Manual-Testing/test-cases.xlsx/` — Test cases (xlsx/md)
-- `QA-portfolio/QA-Manual-Testing/bug_reports/` — Bug reports + evidence (screenshots)
-- `QA-portfolio/QA-Automated-Testing/automation/test_navigation.py` — Selenium + pytest code (regression suite)
-- `QA-portfolio/QA-Manual-Testing/test_cases.xlsx/tab: Test Execution Summary` — Execution summaries / logs
-
 ## Deliverables included
 
 Deliverables for this portfolio project include:
