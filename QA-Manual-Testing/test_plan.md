@@ -1,9 +1,6 @@
 # Manual Test Plan - Demo Website
 
-**Project:** QA Portfolio -  Demo Site  
-**Prepared by:** Angelica Soete  
-**Date:** February 16, 2026  
-**Version:** 2.0
+**Project:** QA Portfolio -  Demo Site
 
 ---
 
