@@ -1,4 +1,4 @@
-# Manual Test Plan - Demo Website
+# Test Plan - Demo Website
 
 **Project:** QA Portfolio -  Demo Site
 
