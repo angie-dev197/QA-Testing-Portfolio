@@ -14,3 +14,5 @@ multi-page static website (Home, Services, Culture, Contact).
 
 > Designed around real constraints: solo tester, limited hardware, free tooling only —
 > coverage decisions were intentional and documented.
+
+*Full test plan is available in the [repository files](./QA-Manual-Testing/test_plan.md).*
