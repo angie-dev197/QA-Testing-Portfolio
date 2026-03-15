@@ -11,13 +11,13 @@ This document outlines the manual and automated testing strategy for the demo we
 
 ### 1.2 Project Overview
 **Application:** Multi-page informational website  
-**Technology Stack:** HTML5, CSS3, JavaScript  
+**Technology Stack:** HTML, CSS, JavaScript  
 **Pages:** Home, Services, Culture, Contact  
 **Test Environment:** Self-built static website with custom Python automation framework
 
 ### 1.3 Portfolio Context
 This test plan demonstrates:
-- **Manual testing expertise** from 2+ years LQA experience in gaming industry
+- **Manual testing expertise** LQA experience in gaming industry
 - **Test automation skills** using Python/Selenium for efficiency gains
 - **Full testing lifecycle** from planning → execution → reporting
 - **Risk-based prioritization** under time and resource constraints
@@ -296,9 +296,6 @@ Full test case documentation available in: `docs/test-cases.md`
 ---
 
 ## 12. Portfolio Note: Resource Constraints & Decisions
-
-### 12.1 Real-World Context
-This portfolio project was completed under realistic constraints that mirror actual QA work:
 
 **Available resources:**
 - 1 Windows PC + 1 iPhone 11
